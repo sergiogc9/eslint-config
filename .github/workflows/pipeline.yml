@@ -48,6 +48,10 @@ jobs:
             ${{ runner.os }}-
       - name: Install dependencies
         run: yarn install --ignore-scripts --frozen-lockfile
+      - name: Config git
+        run: |
+          git config --global user.name 'Sergio Gómez Cosgaya'
+          git config --global user.email 'sergiogcosgaya@gmail.com'
       - name: Push new version
         run: yarn version --patch && git push
       - name: Publish to NPM
