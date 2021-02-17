@@ -51,6 +51,6 @@ jobs:
         run: yarn install --ignore-scripts --frozen-lockfile
       - name: Publish to NPM
         if: contains(github.ref, 'master')
-        run: yarn foxcli publish
+        run: yarn foxcli pkg-publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
