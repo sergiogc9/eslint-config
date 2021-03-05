@@ -20,6 +20,19 @@
 	},
 	"rules": {
 		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"@typescript-eslint/naming-convention": [
+			"error",
+			{ "selector": "default", "format": ["camelCase", "strictCamelCase"], "leadingUnderscore": "allowSingleOrDouble" },
+			{
+				"selector": "variable",
+				"format": ["camelCase", "UPPER_CASE"],
+				"leadingUnderscore": "allowSingleOrDouble"
+			},
+			{
+				"selector": "typeLike",
+				"format": ["PascalCase"]
+			}
+		],
 		"@typescript-eslint/no-throw-literal": "off",
 		"consistent-return": "off",
 		"import/no-anonymous-default-export": "off",
@@ -30,6 +43,7 @@
 			{
 				"paths": ["lodash"]
 			}
-		]
+		],
+		"no-underscore-dangle": "off"
 	}
 }
