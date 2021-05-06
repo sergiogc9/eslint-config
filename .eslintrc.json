@@ -20,23 +20,34 @@
 	},
 	"rules": {
 		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"@typescript-eslint/lines-between-class-members": "off",
 		"@typescript-eslint/naming-convention": [
 			"error",
 			{ "selector": "default", "format": ["camelCase", "strictCamelCase"], "leadingUnderscore": "allowSingleOrDouble" },
 			{
 				"selector": "variable",
-				"format": ["camelCase", "UPPER_CASE"],
+				"format": ["camelCase", "UPPER_CASE", "PascalCase"],
 				"leadingUnderscore": "allowSingleOrDouble"
 			},
 			{
 				"selector": "typeLike",
 				"format": ["PascalCase"]
+			},
+			{
+				"selector": "property",
+				"format": ["camelCase", "strictCamelCase", "snake_case"],
+				"leadingUnderscore": "allowSingleOrDouble"
 			}
 		],
+		"@typescript-eslint/no-explicit-any": "off",
 		"@typescript-eslint/no-throw-literal": "off",
+		"class-methods-use-this": "off",
+		"eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }],
 		"consistent-return": "off",
 		"import/no-anonymous-default-export": "off",
 		"import/prefer-default-export": "off",
+		"max-classes-per-file": "off",
+		"no-param-reassign": "off",
 		"no-throw-literal": "off",
 		"no-restricted-imports": [
 			"error",
