@@ -1,4 +1,4 @@
 {
 	"plugins": [],
-	"extends": ["./", "./react", "./jest"]
+	"extends": ["./react", "./jest", "./"]
 }

@@ -1,4 +1,8 @@
 {
 	"plugins": ["react"],
-	"extends": ["airbnb/hooks", "airbnb-typescript", "plugin:react/recommended", "prettier/react"]
+	"extends": ["airbnb/hooks", "airbnb-typescript", "plugin:react/recommended", "prettier/react"],
+	"rules": {
+		"react/jsx-props-no-spreading": "off",
+		"react/prop-types": "off"
+	}
 }
