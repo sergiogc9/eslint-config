@@ -30,21 +30,28 @@
 				"leadingUnderscore": "allowSingleOrDouble"
 			},
 			{
+				"selector": "parameter",
+				"format": ["camelCase", "strictCamelCase", "PascalCase"]
+			},
+			{
 				"selector": "typeLike",
 				"format": ["PascalCase"]
 			},
 			{
 				"selector": "property",
-				"format": ["camelCase", "strictCamelCase", "snake_case"],
+				"format": ["camelCase", "strictCamelCase", "snake_case", "PascalCase"],
 				"leadingUnderscore": "allowSingleOrDouble"
 			}
 		],
 		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-non-null-assertion": "off",
 		"@typescript-eslint/no-throw-literal": "off",
 		"class-methods-use-this": "off",
 		"eslint-comments/disable-enable-pair": ["error", { "allowWholeFile": true }],
 		"consistent-return": "off",
+		"import/extensions": "off",
 		"import/no-anonymous-default-export": "off",
+		"import/no-extraneous-dependencies": "off",
 		"import/prefer-default-export": "off",
 		"max-classes-per-file": "off",
 		"no-param-reassign": "off",
