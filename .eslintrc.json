@@ -55,6 +55,7 @@
 		"import/prefer-default-export": "off",
 		"max-classes-per-file": "off",
 		"no-param-reassign": "off",
+		"no-plusplus": "off",
 		"no-throw-literal": "off",
 		"no-restricted-imports": [
 			"error",
