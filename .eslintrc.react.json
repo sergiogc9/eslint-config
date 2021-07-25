@@ -2,6 +2,7 @@
 	"plugins": ["react"],
 	"extends": ["airbnb/hooks", "airbnb-typescript", "plugin:react/recommended", "prettier/react"],
 	"rules": {
+		"react/destructuring-assignment": "off",
 		"react/display-name": "off",
 		"react/jsx-props-no-spreading": "off",
 		"react/prop-types": "off"

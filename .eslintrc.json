@@ -23,7 +23,11 @@
 		"@typescript-eslint/lines-between-class-members": "off",
 		"@typescript-eslint/naming-convention": [
 			"error",
-			{ "selector": "default", "format": ["camelCase", "strictCamelCase"], "leadingUnderscore": "allowSingleOrDouble" },
+			{
+				"selector": "default",
+				"format": ["camelCase", "strictCamelCase", "PascalCase"],
+				"leadingUnderscore": "allowSingleOrDouble"
+			},
 			{
 				"selector": "variable",
 				"format": ["camelCase", "UPPER_CASE", "PascalCase"],
@@ -31,7 +35,8 @@
 			},
 			{
 				"selector": "parameter",
-				"format": ["camelCase", "strictCamelCase", "PascalCase"]
+				"format": ["camelCase", "strictCamelCase", "PascalCase"],
+				"leadingUnderscore": "allowSingleOrDouble"
 			},
 			{
 				"selector": "typeLike",
@@ -64,5 +69,13 @@
 			}
 		],
 		"no-underscore-dangle": "off"
-	}
+	},
+	"overrides": [
+		{
+			"files": ["*.js"],
+			"rules": {
+				"@typescript-eslint/no-var-requires": "off"
+			}
+		}
+	]
 }
