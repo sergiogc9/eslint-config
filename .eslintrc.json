@@ -44,7 +44,7 @@
 			},
 			{
 				"selector": "property",
-				"format": ["camelCase", "strictCamelCase", "snake_case", "PascalCase"],
+				"format": null,
 				"leadingUnderscore": "allowSingleOrDouble"
 			}
 		],

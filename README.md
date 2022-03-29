@@ -74,7 +74,7 @@ yarn add -D \
 
 ```
 yarn add -D \
-    eslint-plugin-jsx-a11y" \
+    eslint-plugin-jsx-a11y \
     eslint-plugin-react \
     eslint-plugin-react-hooks
 ```
