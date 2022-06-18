@@ -187,12 +187,12 @@ astral-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-axios@0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
-  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
   dependencies:
-    follow-redirects "^1.10.0"
+    follow-redirects "^1.14.0"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -717,17 +717,17 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
-follow-redirects@^1.10.0:
+follow-redirects@^1.14.0:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
   integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
 
-fox-awesome-cli@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/fox-awesome-cli/-/fox-awesome-cli-1.1.0.tgz#f6364c55b1064ed47eb3676aa0685a286ce90627"
-  integrity sha512-2QzcJri5cxfc04gUcCB+q6F0lMwm3TVLL+vSwghFaQbrf/h6y7/6bxw6YRvK9zI/EVZOgbTtLMlymtFycMxf7Q==
+fox-awesome-cli@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/fox-awesome-cli/-/fox-awesome-cli-1.1.1.tgz#66585e69b4e6617ec606a47d24c30dd6637e4c80"
+  integrity sha512-RaQBSs+9TrJJ0nCbk5P5qyfdBgfVi3sCWdSMSJMDh9eBo7YSLdFsBjFaKnGEb/P7HSQaZyVjrI9Bd4CYnpZG1g==
   dependencies:
-    axios "0.21.1"
+    axios "^0.21.1"
     chalk "4.1.0"
     configstore "5.0.1"
     envinfo "7.7.4"
