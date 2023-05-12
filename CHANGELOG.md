@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/sergiogc9/eslint-config/compare/v1.0.11...v1.0.12) (2023-05-12)
+
+
+### Bug Fixes
+
+* Disable no-undef rule ([d508701](https://github.com/sergiogc9/eslint-config/commit/d508701e0ab7f25d1b30b532a04a9ef216057aa9))
+
 ## [1.0.11](https://github.com/sergiogc9/eslint-config/compare/v1.0.10...v1.0.11) (2023-05-12)
 
 ### Bug Fixes
