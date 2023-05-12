@@ -67,7 +67,8 @@
 				"paths": ["lodash"]
 			}
 		],
-		"no-underscore-dangle": "off"
+		"no-underscore-dangle": "off",
+		"no-undef": "off"
 	},
 	"overrides": [
 		{
